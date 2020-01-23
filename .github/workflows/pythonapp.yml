@@ -25,7 +25,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 	# Catches unused imports variables, multiple commands on one line,
-	# Star imports(can’t tell where functions classes are coming fro)m
+	# Star imports(can’t tell where functions classes are coming from)
 	# bare except which can take down entire application stacks
 	flake8 . --extend-ignore=W,E1,E2,E3,E5
     - name: Test with pytest
