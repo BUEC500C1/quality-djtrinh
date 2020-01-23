@@ -1,5 +1,6 @@
 import pytest
 
+
 def pass_string(s):
     return s
 
