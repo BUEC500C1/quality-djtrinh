@@ -29,4 +29,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest arabic_to_roman_test.py
+        pytest test_arabic_to_roman.py
